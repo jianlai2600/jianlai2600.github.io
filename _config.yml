@@ -10,8 +10,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "一个中二的名字"
-description:	       "耗时5min创建的主页"
+title:		           "不周山"
+description:	       "Jianjia"
 author:              "Yafei Li"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
