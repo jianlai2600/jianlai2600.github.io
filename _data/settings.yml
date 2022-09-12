@@ -7,13 +7,17 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Study Skills',       url: 'documentation'}
-- {name: 'Paper',       url: 'facts'}
+- {name: 'Study Skills',         url: 'documentation'}
+- {name: 'Paper',                url: 'facts'}
+- {name: 'C++',                  url: 'resources'}
+- {name: 'Coding',               url: 'sample-posts'}
+- {name: 'Algorithm',            url: 'about'}
+-
 # - {name: 'Interesting Facts',  url: 'facts'}
-- {name: 'Learning Resources', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
+# - {name: 'Learning Resources', url: 'resources'}
+# - {name: 'Sample Posts',       url: 'sample-posts'}
 # - {name: 'Documentation',      url: 'documentation'}
-- {name: 'About',              url: 'about'}
+# - {name: 'About',              url: 'about'}
 # - {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
