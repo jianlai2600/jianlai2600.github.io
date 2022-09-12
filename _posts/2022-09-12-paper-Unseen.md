@@ -2,9 +2,9 @@
 layout: post
 title: "Unseen Classes at a Later Time? No Problem"
 author: "Yafei Li"
-categories: facts
+categories: paper
 tags: [papers]
-image: Ganyu2.jpeg
+image: Shenhe.png
 ---
 
 
