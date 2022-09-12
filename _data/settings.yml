@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Paper',                url: 'facts'}
+- {name: 'Paper',                url: 'paper'}
 - {name: 'Study Skills',         url: 'documentation'}
 - {name: 'C++',                  url: 'resources'}
 - {name: 'Coding',               url: 'sample-posts'}
