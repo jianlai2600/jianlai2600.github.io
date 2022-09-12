@@ -2,8 +2,8 @@
 layout: post
 title: "Endnote及文献检索"
 author: "Yafei Li"
-categories: documentation
-tags: [documentation]
+categories: study-skills
+tags: [study-skills]
 image: Ganyu1.jpeg
 ---
 
