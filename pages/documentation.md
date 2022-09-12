@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Documentation
+title: Study-Skills
 category: documentation
 permalink: /documentation
 ---
