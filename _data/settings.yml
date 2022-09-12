@@ -1,18 +1,19 @@
 # Change 'comments' to true for Disqus comments
 disqus:
-  comments: true
+  comments: false
   disqus_shortname: 'wader'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
 
 menu:
+- {name: 'Study Skills',       url: 'study-skills'}
 - {name: 'Interesting Facts',  url: 'facts'}
 - {name: 'Learning Resources', url: 'resources'}
 - {name: 'Sample Posts',       url: 'sample-posts'}
 - {name: 'Documentation',      url: 'documentation'}
 - {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+# - {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
