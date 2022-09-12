@@ -7,8 +7,8 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Study Skills',         url: 'documentation'}
 - {name: 'Paper',                url: 'facts'}
+- {name: 'Study Skills',         url: 'documentation'}
 - {name: 'C++',                  url: 'resources'}
 - {name: 'Coding',               url: 'sample-posts'}
 - {name: 'Algorithm',            url: 'about'}
