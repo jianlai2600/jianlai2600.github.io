@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Study Skills',       url: 'study-skills'}
+- {name: 'Study Skills',       url: 'documentation'}
 - {name: 'Interesting Facts',  url: 'facts'}
 - {name: 'Learning Resources', url: 'resources'}
 - {name: 'Sample Posts',       url: 'sample-posts'}
