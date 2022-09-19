@@ -101,7 +101,7 @@ You can make an unordered and nested list by preceding one or more lines of text
 Numbered lists are made by using numbers instead of bullet points.
 
 1. List item one
-    1. List item one
+   1. List item one
         1. List item one
         2. List item two
         3. List item three

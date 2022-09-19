@@ -19,16 +19,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "/Users/jianjia/Documents/GitHub/jianlai2600.github.io/pages",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jianjia/Documents/GitHub/jianlai2600.github.io/pages&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages" />
@@ -53,7 +53,8 @@
       <workItem from="1662956225659" duration="505000" />
       <workItem from="1662961506241" duration="359000" />
       <workItem from="1662969086043" duration="935000" />
-      <workItem from="1662970504916" duration="11076000" />
+      <workItem from="1662970504916" duration="11516000" />
+      <workItem from="1663574338004" duration="4184000" />
     </task>
     <servers />
   </component>
