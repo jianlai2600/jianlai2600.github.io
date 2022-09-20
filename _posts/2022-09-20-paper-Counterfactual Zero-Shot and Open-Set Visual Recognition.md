@@ -4,7 +4,7 @@ title: "Counterfactual Zero-Shot and Open-Set Visual Recognition"
 author: "Yafei Li"
 categories: paper
 tags: [papers, ZSL]
-image: Cha1.png
+image: scene1.jpeg
 
 ---
 
