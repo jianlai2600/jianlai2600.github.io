@@ -25,4 +25,4 @@ image: Ganyu2.jpeg
 * 将生成模型与嵌入模型相结合，产生一个混合 GZSL 框架。混合 GZSL 方法绘制了生成的真实样本和合成样本。将模型放入一个嵌入空间，在这里我们执行最终的 GZSL 分类。
 * 具体来说，我们为我们的混合 GZSL 框架提出了一种对比嵌入 (CE)。所提出的对比嵌入不仅可以利用类监督，还可以利用**实例监督**，后者通常被现有的 GZSL 研究忽略。
 
-![2022-09-20 10.32.19](/Users/jianjia/Documents/GitHub/jianlai2600.github.io/assets/screen/2022-09-20%2010.32.19.png)
+![2022-09-20 10.32.19](/Users/jianjia/Documents/GitHub/jianlai2600.github.io/assets/screen/contrastive.png)
