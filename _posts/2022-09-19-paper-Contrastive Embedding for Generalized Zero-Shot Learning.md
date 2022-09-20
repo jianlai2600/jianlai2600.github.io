@@ -29,3 +29,14 @@ image: Ganyu2.jpeg
 
 
 
+### 怎么做：
+
++ We learn an embedding function E that **maps the visual samples xi into the embedding space as hi = E(xi).** 
++ We further learn a **non-linear projection H to better constrain the embedding space: zi = H(hi).** 
++ We introduce a **comparator network F that measures the relevance score between hi and the semantic descriptors.** 
++ We **learn the embedding function with both the instance-level and the class-level supervisions.** 
++ We **integrate the contrastive embedding model with the feature generation model.** 
++ In the feature generation model, **the feature generator G learns to produce visual features based on a semantic descriptor a and a Gaussian noise ε; and the discriminator D aims to distinguish the fake visual features from real ones**.
+
+
+
