@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Discriminative Region-based Multi-Label Zero-Shot Learning"
+title: "Distinguishing Unseen from Seen for Generalized Zero-shot Learning"
 author: "Yafei Li"
 categories: paper
 tags: [papers, ZSL]
-image: scene2.jpeg
+image: scene3.jpeg
 
 ---
 
-# Discriminative Region-based Multi-Label Zero-Shot Learning
+# Distinguishing Unseen from Seen for Generalized Zero-shot Learning
 
 # ZSL
 
