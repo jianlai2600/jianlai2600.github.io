@@ -12,9 +12,17 @@ image: Cha1.png
 
 # OCR
 
+### Template👇
 
+### <u>Scene Text Detection</u>
 
+#### Abstract
 
+#### Idea
+
+#### Figure
+
+#### Architecture
 
 # *Text Detection*
 
@@ -76,7 +84,7 @@ open-set->识别新的字
 
 
 
-<u>**该方法的妙就是将context与字符解藕，专注于单个字的salience region，而老方法会去看context，而context会有坏影响**</u>
+**<u>*该方法的妙就是将context与字符解藕，专注于单个字的salience region，而老方法会去看context，而context会有坏影响*</u>**
 
 ![](https://raw.githubusercontent.com/jianlai2600/IMAGE/main/img/202209231427956.png)
 
@@ -93,15 +101,44 @@ open-set->识别新的字
 
 
 
+### <u>Pushing the Performance Limit of Scene Text Recognizer without Human Annotation</u>
+
+#### Abstract
+
+*Scene text recognition (STR) attracts much attention over the years because of its wide application. Most methods train STR model in a fully supervised manner which re- quires large amounts of labeled data. Although synthetic data contributes a lot to STR, it suffers from the real-to- synthetic domain gap that restricts model performance. In this work, we aim to boost STR models by leveraging both synthetic data and the numerous real unlabeled images, ex- empting human annotation cost thoroughly. A robust con- sistency regularization based semi-supervised framework is proposed for STR, which can effectively solve the instabil- ity issue due to domain inconsistency between synthetic and real images. A character-level consistency regularization is designed to mitigate the misalignment between characters in sequence recognition. Extensive experiments on stan- dard text recognition benchmarks demonstrate the effective- ness of the proposed method. It can steadily improve exist- ing STR models, and boost an STR model to achieve new state-of-the-art results. To our best knowledge, this is the first consistency regularization based framework that ap- plies successfully to STR.*
+
+#### Idea
+
+STR依赖于标注数据然后监督学习，很繁琐
+
+老方法问题：合成数据集尽管很好，但是受限于合成-真实之间的差距，限制了模型的性能
+
+新方法：使用合成数据和未标注真实数据
+
+<u>**A robust consistency regularization based semi-supervised framework** is proposed for STR, which can effectively solve the instability issue due to domain inconsistency between synthetic and real images.</u>
+
+#### Figure
+
+![](https://raw.githubusercontent.com/jianlai2600/IMAGE/main/img/202209231510041.png)
+
+#### Architecture
+
++ <u>take advantage of labeled synthetic data and unlabeled real data</u>
++ An asymmetric structure is designed with EMA and domain adaption to encourage a stable model training
 
 
 
+### <u>SimAN: Exploring Self-Supervised Representation Learning of Scene Text via Similarity-Aware Normalization</u>
 
+#### Abstract
 
+*Recently self-supervised representation learning has drawn considerable attention from the scene text recogni- tion community. Different from previous studies using con- trastive learning, we tackle the issue from an alternative perspective, i.e., by formulating the representation learning scheme in a generative manner. Typically, the neighbor- ing image patches among one text line tend to have simi- lar styles, including the strokes, textures, colors, etc. Moti- vated by this common sense, we augment one image patch and use its neighboring patch as guidance to recover itself. Specifically, we propose a Similarity-Aware Normalization (SimAN) module to identify the different patterns and align the corresponding styles from the guiding patch. In this way, the network gains representation capability for distin- guishing complex patterns such as messy strokes and clut- tered backgrounds. Experiments show that the proposed SimAN significantly improves the representation quality and achieves promising performance. Moreover, we surpris- ingly find that our self-supervised generative network has impressive potential for data synthesis, text image editing, and font interpolation, which suggests that the proposed SimAN has a wide range of practical applications.*
 
+#### Idea
 
+#### Figure
 
-
+#### Architecture
 
 
 
