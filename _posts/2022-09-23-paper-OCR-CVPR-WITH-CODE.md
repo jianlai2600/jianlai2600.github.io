@@ -127,6 +127,29 @@ Old method flaws:	Sensitive to noises and dependent on the complicated heuristic
 
 
 
+### <u>Towards End-to-End Unified Scene Text Detection and Layout Analysis</u>
+
+#### Abstract
+
+*Scene text detection and document layout analysis have long been treated as two separate tasks in different image domains. In this paper, we bring them together and introduce the task of unified scene text detection and layout analysis. The first hierarchical scene text dataset is introduced to enable this novel research task. We also propose a novel method that is able to simultaneously de- tect scene text and form text clusters in a unified way. Comprehensive experiments show that our unified model achieves better performance than multiple well-designed baseline methods. Additionally, this model achieves state- of-the-art results on multiple scene text detection datasets without the need of complex post-processing.*
+
+#### Idea
+
+Old method:	Scene text detection and document layout analysis 
+
+Old method flaws:	Scene text detection and document layout analysis have long been treated as two **<u>*separate tasks*</u>** in different image domains.
+
+**<u>*New method:	In this paper, we bring them together and introduce the task of unified scene text detection and layout analysis.*</u>**
+
++ The first hierarchical scene text dataset is introduced to enable this novel research task. 
++ <u>***We also propose a novel method that is able to simultaneously detect scene text and form text clusters in a unified way.***</u> 
+
+#### Figure
+
+![](https://raw.githubusercontent.com/jianlai2600/IMAGE/main/img/202209261613586.png)
+
+#### Process
+
 # *Text Recognition*
 
 ### <u>A Multiplexed Network for End-to-End, Multilingual OCR</u>
@@ -384,6 +407,31 @@ Old method flaws:	For handwritten or artistic texts that are difficult to genera
 
 
 
+### <u>Towards Accurate Scene Text Recognition with Semantic Reasoning Networks</u>
+
+#### Abstract
+
+*Scene text image contains two levels of contents: visual texture and semantic information. Although the previous scene text recognition methods have made great progress over the past few years, the research on mining seman- tic information to assist text recognition attracts less at- tention, only RNN-like structures are explored to implic- itly model semantic information. However, we observe that RNN based methods have some obvious shortcomings, such as time-dependent decoding manner and one-way se- rial transmission of semantic context, which greatly limit the help of semantic information and the computation effi- ciency. To mitigate these limitations, we propose a novel end-to-end trainable framework named semantic reasoning network (SRN) for accurate scene text recognition, where a global semantic reasoning module (GSRM) is introduced to capture global semantic context through multi-way parallel transmission. The state-of-the-art results on 7 public bench- marks, including regular text, irregular text and non-Latin long text, verify the effectiveness and robustness of the pro- posed method. In addition, the speed of SRN has significant advantages over the RNN based methods, demonstrating its value in practical use.*
+
+#### Idea
+
+Old method:	Previous scene text recognition methods have made great progress over the past few years, the research on mining semantic information to assist text recognition attracts less attention.Only RNN-like structures are explored to implicitly model semantic information.
+
+Old method flaws:	Time-dependent decoding manner and one-way serial transmission of semantic context, which greatly limit the help of semantic information and the computation efficiency.
+
+**<u>*New method:*</u>**	
+
++ We propose a novel end-to-end trainable framework named semantic reasoning network (SRN) for accurate scene text recognition, where a **<u>*global semantic reasoning module*</u>** (GSRM) is introduced to **<u>*capture global semantic context through multi-way parallel transmission*</u>**. 
++ The state-of-the-art results on 7 public bench- marks, including regular text, irregular text and non-Latin long text, verify the effectiveness and robustness of the proposed method. In addition, the speed of SRN has significant advantages over the RNN based methods, demonstrating its value in practical use.(Just so good!)
+
+#### Figure
+
+![](https://raw.githubusercontent.com/jianlai2600/IMAGE/main/img/202209261606652.png)
+
+#### Process
+
+
+
 # *Text Spotting*
 
 ### <u>ABCNet: Real-time Scene Text Spotting with Adaptive Bezier-Curve Network</u>
@@ -470,6 +518,34 @@ Old method flaws:	Recent state-of-the-art methods usually incorporate detection 
 #### Process
 
 
+
+### <u>Text Spotting Transformers</u>
+
+#### Abstract
+
+*In this paper, we present TExt Spotting TRansformers (TESTR), a generic end-to-end text spotting framework using Transformers for text detection and recognition in the wild. TESTR builds upon a single encoder and dual decoders for the joint text-box control point regression and character recognition. Other than most existing litera- ture, our method is free from Region-of-Interest operations and heuristics-driven post-processing procedures; TESTR is particularly effective when dealing with curved text-boxes where special cares are needed for the adaptation of the tra- ditional bounding-box representations. We show our canon- ical representation of control points suitable for text in- stances in both Bezier curve and polygon annotations. In addition, we design a bounding-box guided polygon de- tection (box-to-polygon) process. Experiments on curved and arbitrarily shaped datasets demonstrate state-of-the- art performances of the proposed TESTR algorithm.*
+
+#### Idea
+
+Old method:	None
+
+Old method flaws:	None
+
+**<u>*New method:*</u>**	
+
++ **<u>*TESTR builds upon a single encoder and dual decoders for the joint text-box control point regression and character recognition.*</u>** 
++ Other than most existing literature, our method is free from Region-of-Interest operations and heuristics-driven post-processing procedures; 
++ TESTR is particularly effective when dealing with **<u>*curved text-boxes*</u>** where special cares are needed for the adaptation of the traditional bounding-box representations. 
++ We show our **<u>*canonical representation of control points*</u>** suitable for text instances in both **<u>*Bezier curve and polygon annotations*</u>**. 
++ In addition, we design a **<u>*bounding-box guided polygon detection*</u>** (box-to-polygon) process. 
+
+#### Figure
+
+![](https://raw.githubusercontent.com/jianlai2600/IMAGE/main/img/202209261556239.png)
+
+![](https://raw.githubusercontent.com/jianlai2600/IMAGE/main/img/202209261559092.png)
+
+#### Process
 
 
 
